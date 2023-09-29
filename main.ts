@@ -13,7 +13,7 @@ input.onButtonPressed(Button.A, function () {
   basic.showIcon(IconNames.Yes)
   pins.digitalWritePin(DigitalPin.P16, 1)
 })
-// Turn off LED 
+// Turn off LED
 input.onButtonPressed(Button.B, function () {
   basic.showIcon(IconNames.No)
   pins.digitalWritePin(DigitalPin.P16, 0)
